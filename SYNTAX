@@ -1,0 +1,26 @@
+This is the SYNTAX description.
+
+aURL = action URL. This is the full http request needed to be made in order to get stuff done :)
+
+	http://<gameURL>/game.php?<options>
+
+<options> :	opt1, '&'
+		opt...
+
+		village : players current townID
+		screen  : list of screentypes
+			:	info_village : get's other Village info screen
+				map : no other Village needed, will just pop to map for current Village
+				overview : giev current town overview
+		id	: other Village townID
+		
+
+
+	http://<gameURL>/place?<options>
+
+<options> :	opt1, '&'
+		opt...
+	
+		mode	: list of actions 
+				:	command (send troops to target)
+		target	: Target Village townID		
